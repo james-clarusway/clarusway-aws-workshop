@@ -28,5 +28,5 @@ def main_post():
     return render_template('result.html', number_decimal=number, number_roman=convert(number), developer_name='James - Mentor')
 
 if __name__ == '__main__':
-   # app.run(host='0.0.0.0', port=80)
-   app.run()
+   app.run(host='0.0.0.0', port=80)
+   # app.run()
